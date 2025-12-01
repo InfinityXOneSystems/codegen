@@ -1,0 +1,20 @@
+{
+  "name": "codegen",
+  "version": "1.0.0",
+  "description": "A simple code generation utility",
+  "main": "src/index.js",
+  "bin": {
+    "codegen": "./bin/codegen.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "codegen",
+    "code-generation",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT"
+}
